@@ -1,11 +1,20 @@
 package cuentas;
 
 public class Main {
-
+	/**
+	 * Implementa el inicio del programa. 
+	 * @author entornos
+	 * @version 2.0
+	 * @since 2.0
+	 */
     public static void main(String[] args) {
         operativa_cuenta(2500);
     }
-
+    /**
+	 * metodo operativa_cuenta, recibe un float
+	 * @return void
+	 */
+	
 	private static void operativa_cuenta(float cantidad) {
 		CCuenta cuenta1;
         double saldoActual;
